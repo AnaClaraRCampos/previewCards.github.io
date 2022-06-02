@@ -438,6 +438,10 @@ img{
   }
   
 @media(max-width:450px){
+
+    body{
+        max-width: 450px;
+    }
     #container{
         background-color: hsl(244, 38%, 16%);
         width: 450px;
@@ -519,7 +523,7 @@ img{
         height: 320px;
         width: 450px;
         position: relative;
-        bottom: 198px;
+        bottom: 200px;
         left: 00px;
         border-radius: 10px 10px 0 0;
         filter: opacity(0.4) drop-shadow(0 0 0 rgb(144, 9, 255)); 
