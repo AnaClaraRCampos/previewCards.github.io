@@ -442,7 +442,7 @@ img{
         background-color: hsl(244, 38%, 16%);
         width: 450px;
         height: 880px;
-       left: 15px;
+       left: 35px;
         border-radius: 10px;
     }
     
@@ -556,4 +556,16 @@ img{
         left: -192px;
         top: 673px;
     }
+}
+
+@media(max-width:320px){
+    #container{
+        position: relative;
+        left: 38px;
+    }
+}
+
+@media(max-width:375px){
+    #container{
+        margin-left: 15px;  
 }
